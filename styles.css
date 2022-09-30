@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+background-color: #00aeff;
+color: #00ff22;
+
+font-size: 16px;
+font-weight: normal
+font-family: 'Roboto', sans-serif;
+font: normal 16px 'Roboto', sans-serif;
+}
+
+a {
+color: #66ff00;
+text-decoration: none;}
+
+a:hover {
+text-decoration: underline;
+color: #000000;}
+
+a:active {
+    text-decoration: underline;
+    color: #0055ff;}
+a:visited {
+    /*color: #ffffff;*/
+   /*не работает->*/    text-decoration: underline;}
+
+
+
+.avatar{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 25px rgb(255, 0, 0);
+}
+
+.info p {
+color: #d400ff;
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 1px;
+/*word-spacing: 10px;*/}
+
+/*BOX MODEL*/
+.games {max-width: 100%; background: rgb(0, 255, 0);}
+.web {max-width: 100%;
+background: rgb(0, 26, 255);
+padding: 10px 30px;
+padding-left: ;
+padding-right: ;
+padding-top: ;
+padding-bottom: ;
+border: 3px solid rgb(0, 0, 0);
+ border-bottom-width: 5px;
+  border-bottom-style: double;
+   border-bottom-color: rgb(0, 255, 13);
+ border-top-width: 5px;
+  border-top-style: double;
+   border-top-color: rgb(255, 0, 140);
+ border-left-width: 5px;
+  border-left-style: double;
+   border-left-color: rgb(255, 136, 0);
+ border-right-width: 5px;
+  border-right-style: double;
+   border-right-color: rgb(229, 255, 0);
+
+margin: 0px;
+}
+
+/*.box-model > div {
+float: left;
+background: #000000;
+height: 200px;
+width: 25%;
+border: 4px solid green;
+box-sizing: border-box;}*/
